@@ -27,7 +27,7 @@ describe("Given the class SkylabArray", () => {
   });
 
   describe("When it receives the arguments 'Marta', 'Luis', 'Pere' to create the Object names", () => {
-    test("Then it's method myArrayLenght should return 4", () => {
+    test("Then it's method myArrayLenght should return 3", () => {
       const names = new SkylabArray("Marta", "Luis", "Pere");
       const expectedLength = 3;
 
