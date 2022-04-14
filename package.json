@@ -1,12 +1,33 @@
 {
   "name": "challenge_4",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "personal-test": "jest -watchAll",
+    "prepare": "husky install"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BorisMichaelRandebrock/202204-W2CH4-boris-randebrock-cristian-bermudez-elias-heresi.git"
+  },
+  "bugs": {
+    "url": "https://github.com/BorisMichaelRandebrock/202204-W2CH4-boris-randebrock-cristian-bermudez-elias-heresi/issues"
+  },
+  "homepage": "https://github.com/BorisMichaelRandebrock/202204-W2CH4-boris-randebrock-cristian-bermudez-elias-heresi#readme",
+  "description": "",
+  "devDependencies": {
+    "eslint": "^8.13.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "husky": "^7.0.0",
+    "jest": "^27.5.1"
+  },
+  "dependencies": {
+    "@types/jest": "^27.4.1"
+  }
 }
