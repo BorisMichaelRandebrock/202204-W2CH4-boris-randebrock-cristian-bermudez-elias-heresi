@@ -15,3 +15,5 @@ describe("Given the class SkylabArray", () => {
     });
   });
 });
+
+const a = 3;
